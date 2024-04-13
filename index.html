@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>HTML Semabtics</title>
 	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 	<header class="navbar">
@@ -58,5 +59,124 @@
 			Eveniet voluptatum accusamus sint ipsum voluptates illo consequuntur ut aliquam id laudantium nostrum, voluptatibus adipisci voluptatem ex. Tempora, molestiae sint facere quisquam amet cupiditate! Nulla voluptate temporibus quaerat dolor amet.</p>
 		</aside>
 	</section>
+	<!-- This section is used to clear space letf by the about section after floating left  -->
+	<section class="clear-both"></section>
+
+	<!-- footer section   -->
+	<section class="container" id="contacts">
+		<!-- Registration Area  -->
+		<div class="contact">
+			<form action="https://example.com/login.php" method="post">
+				<div>
+					<fieldset>
+						<legend><h2>Personal Details:</h2></legend>
+						<div>
+							<label for="fname" name="First Name:" value="First Name:"></label>
+							<input type="text" id="fname" name="First Name" placeholder="Enter your First Name" required autocomplete="additional-name">
+						</div>
+						<div>
+							<label for="mname" name="Middle Name:" value="Middle Name:"></label>
+							<input type="text" id="fname" name="Middle Name" placeholder="Enter your Middle Name" required autocomplete="additional-name">
+						</div>
+						<div>
+							<label for="lname" name="Last Name:" value="Last Name:"></label>
+							<input type="text" id="lname" name="last Name" placeholder="Enter your Last Name" required autocomplete="additional-name">
+						</div>
+						<div>
+							<h2>Gender:</h2>
+							<input type="radio" value="Male" checked>Male</option>
+							<input type="radio" value="Female">Female</option>
+							<input type="radio" value="other">Other</option>
+						</div>
+							<div>
+								<label for="dob" name="Date of Birth:" value="Date of Birth:"></label>
+								<input type="date" id="dob" name="Date of Birth" max="10" minlength="31/12/1960" maxlength="01/01/2024" placeholder="Enter a date between 31/12/1960 to 01/01/2024" required >
+							</div>
+						<div>
+							<h2>Marital Status</h2>
+							<input type="radio" value="Married" checked>Married</option>
+							<input type="radio" value="Single">Single</option>
+							<input type="radio" value="Prefer not to say">Prefer not to say</option>
+						</div>
+						<div>
+							<input type="submit" value="submit">
+						</div>
+					</fieldset>
+					<div>
+						<fieldset>
+							<legend><h2>Subscribe to our Newsletter</h2></legend>
+							<label for="email" name="Email"></label>
+							<input type="email" id="email" required>
+							<input type="submit" value="Submit">
+						</fieldset>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!-- Return Menu  -->
+		<div class="contact">
+			<ul>
+				<li><a class="nav-link" href="#home">home</a></li>
+				<li><a class="nav-link" href="#about">about</a></li>
+				<li><a class="nav-link" href="#services">services</a></li>
+				<li><a class="nav-link" href="#contacts">contacts</a></li>
+			</ul>
+		</div>
+		<!-- inquiry Area  -->
+		<div class="contact">
+			<form action="">
+				<fieldset>
+					<legend><h2>Send us your inquiry message.</h2></legend>
+					<div>
+						<input type="text" id="Name" placeholder="Enter your name" required>
+					</div>
+					<div>
+						<input type="email" id="email" placeholder="Enter your Email">
+					</div>
+					<div>
+						<textarea name="inquiry" id="inquiry" cols="20" rows="10" placeholder="Enter your message"></textarea>
+					</div>
+					<div>
+						<input type="submit" value="Send">
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<!-- Direct contact  -->
+		<div class="contact">
+			<ul>
+				<li><h2>Directly Reach Us on:</h2></li>
+				<li><a href=""></a>Call: +254790071288/073354663</li>
+				<li><a href=""></a>Text/whatsapp: +254200200200</li>
+			</ul>
+		</div>
+		<!-- Features Area  -->
+		<div class="contact">
+			<ul>
+				<li><h2>Feaures</h2></li>
+				<li>Blog</li>
+				<li>Activities</li>
+				<li>Services</li>
+				<li>policies</li>
+				<li>Security</li>
+			</ul>
+		</div>
+	</section>
+		<!-- the footer area  -->
+	<footer class="container">
+		<div class="footer">
+			<ul>
+				<li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+				<li><a href=""><i class="fa-brands fa-github"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer">
+			<h2><i class="fa fa-copyright" aria-hidden="true"></i>copright @2024</h2>
+		</div>
+	</footer>
 </body>
 </html>
